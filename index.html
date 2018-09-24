@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Rocket Project at UCLA -->
+  <title>UCLA Rocket Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="rpwebsitecss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><img src="rplogo.png" class="d-inline-block align-top" width="100px" height="100px">Rocket Project at UCLA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="rphomepage.html">HOME</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="lab.html">THE LAB</a></li>
+            <li><a href="vision.html">THE VISION</a></li>
+            <li><a href="team.html">THE TEAM</a></li> 
+            <li><a href="sponsors.html">SPONSORS</a></li> 
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PROJECTS
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="ares.html">ARES</a></li>
+            <li><a href="prometheus.html">PROMETHEUS</a></li>
+            <li><a href="foundry.html">FOUNDRY</a></li> 
+            <li><a href="rise.html">R.I.S.E.</a></li> 
+          </ul>
+        </li>
+        <li><a href="outreach.html">OUTREACH</a></li>
+        <li><a href="media.html">MEDIA</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Second navbar!! -->
+<nav class="blank navbar navbar-default blank">
+  <div class="container-fluid blank">
+    <div class="navbar-header blank">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar blank"></span>
+        <span class="icon-bar blank"></span>
+        <span class="icon-bar blank"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="rphomepage.html">HOME</a></li>
+
+<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="lab.html">THE LAB</a></li>
+            <li><a href="vision.html">THE VISION</a></li>
+            <li><a href="team.html">THE TEAM</a></li> 
+            <li><a href="sponsors.html">SPONSORS</a></li> 
+
+          </ul>
+        </li>
+        <li class="dropdown">
+        </li>
+        <li><a href="outreach.html">OUTREACH</a></li>
+        <li><a href="media.html">MEDIA</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide mobile-hide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active trim" >
+        <img style="transform: translateY(0%)" src="Images/teamlifting_cropped.JPG" alt="Hotfire" width="1200" height="700">
+        <div class="carousel-caption">
+          <h1>Building Rockets</h1>
+          <h3>Igniting the future</h3>
+        </div>      
+      </div>
+
+      <div class="item trim">
+        <img src="Images/outreach_cropped.jpg" alt="Outreach" width="1200" height="700">
+        <div class="carousel-caption">
+          <h1>Outreach Programs</h1>
+          <h3>Inspiring through engineering education</h3>
+        </div>      
+      </div>
+    
+    <!--Before, images 1 and 3 were translated -12% but this cause problems when decreasing window size -->
+      <div class="item trim">
+        <img style="transform: translateY(0%);" src="Images/enginework_cropped.jpg" alt="Engineering" width="1200" height="700">
+        <div class="carousel-caption">
+          <h1>Engineering Spirit</h1>
+          <h3>Leading the world forward</h3>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container  -->    <!-- Body text for dekstop -->
+<div id="rocketry" class="container text-center mobile-hide">
+  <h1>ROCKET PROJECT AT UCLA</h1>
+  <p><em> "...space is for everybody. It's not just for a few people in science or math, or for a select group of astronauts. <br>That's our new frontier out there, and it's everybody's business to know about space." - Christa McAuliffe</em></p>
+  <p> We are a collegiate-level engineering team under the UCLA chapter of the American Institute of Aeronautics and Astronautics. We focus on rocketry in all its aspects and combine nearly every discipline of engineering in our designs. At UCLA Rocket Project, we build to innovate. We are not satisfied with the ordinary and routine - we push the boundaries of our designs. Our passion and our goal is to one day launch our own rockets to space. </p>
+  <br>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="350" height="340" src="https://www.youtube.com/embed/sdhdE462OCo?ecver=1w" allowfullscreen frameborder="0"></iframe>
+  </div>
+  <div> <h2> <i>A recent launch in the Mojave</i> </h2> </div>
+</div>  <!-- END body text for desktop -->
+
+
+<!-- Container  -->    <!-- Body text for mobile -->
+<div id="rocketry" class="col-sm-6 desktop-hide">
+  <h1>ROCKET PROJECT AT UCLA</h1>
+  <p><em> "...space is for everybody. It's not just for a few people in science or math, or for a select group of astronauts. <br>That's our new frontier out there, and it's everybody's business to know about space." - Christa McAuliffe</em></p>
+  <p> We are a collegiate-level engineering team under the UCLA chapter of the American Institute of Aeronautics and Astronautics. We focus on rocketry in all its aspects and combine nearly every discipline of engineering in our designs. At UCLA Rocket Project, we build to innovate. We are not satisfied with the ordinary and routine - we push the boundaries of our designs. Our passion and our goal is to one day launch our own rockets to space. </p>
+  <br>
+
+
+<figure class="desktop-hide text-center">
+    <iframe width="90%" src="https://www.youtube.com/embed/sdhdE462OCo?ecver=1w" frameborder="0" allowfullscreen></iframe>
+    <figcaption> <h4 style="letter-spacing: 0; font-size: 18px; background-color: #ffffff; color: #333 !important;"> <i> A recent launch in the Mojave</h4></i> </figcaption>
+  </figure>
+
+</div>  <!-- END body text for mobile -->
+
+
+
+
+<!-- Container for Desktop -->
+<div id="projects" class="bg-1 mobile-hide">
+  <div class="container">
+    <h3 class="text-center">Projects</h3>
+    <p class="text-center">Check out what we do.</p>
+    
+    
+    <div class="row text-center">
+
+      <div class="col-sm-3 col-xs-12">
+        <div class="thumbnail">
+          <img src="Images/riselesson.jpg" alt="R.I.S.E." width="400" height="300">
+          <p><strong>R.I.S.E.</strong></p>
+          <p>The Rocketry Introduction and Student Education program.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="rise.html">More Info</a></button>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-12">
+        <div class="thumbnail">
+          <img src="Images/engine+firing.jpg" alt="Ares" width="400" height="300">
+          <p><strong>Ares</strong></p>
+          <p>Project Ares is our two-year long liquid bipropellant rocket. </p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="ares.html">More Info</a></button>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-12">
+        <div class="thumbnail">
+          <img src="Images/foundry.jpg" alt="Foundry" width="400" height="300">
+          <p><strong>R&D (Foundry)</strong></p>
+          <p>The Foundry is our research <br> and development rocket.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="foundry.html">More Info</a></button>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-12">
+        <div class="thumbnail">
+          <img src="Images/homepage_prometheus.JPG" alt="Foundry" width="400" height="300">
+          <p><strong>Prometheus</strong></p>
+          <p>Prometheus is our hybrid rocket competition team.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="prometheus.html">More Info</a></button>
+        </div>        
+  	 </div>
+
+
+    </div> <!-- row text-center -->
+  
+  
+  </div> <!-- container -->
+
+
+  <br>
+
+ </div>
+
+
+<!-- Container for Mobile -->
+<div id="projects" class="bg-1 col-sm-3 desktop-hide">
+    <br><h3 class="text-center">Projects</h3>
+    <p class="text-center">Check out what we do.</p><br>
+    
+     
+        <div class="thumbnail text-center">
+          <img src="Images/riselesson.jpg" alt="R.I.S.E." width="400" height="300">
+          <p><strong>R.I.S.E.</strong></p>
+          <p>The Rocketry Introduction and Student Education program.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="rise.html">More Info</a></button>
+        </div>
+      
+
+      <div>
+        <div class="thumbnail text-center">
+          <img src="Images/engine+firing.jpg" alt="Ares" width="400" height="300">
+          <p><strong>Ares</strong></p>
+          <p>Project Ares is our two-year long liquid bipropellant rocket. </p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="ares.html">More Info</a></button>
+        </div>
+      </div>
+
+      <div >
+        <div class="thumbnail text-center">
+          <img src="Images/foundry.jpg" alt="Foundry" width="400" height="300">
+          <p><strong>R&D (Foundry)</strong></p>
+          <p>The Foundry is our research <br> and development rocket.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="foundry.html">More Info</a></button>
+        </div>
+      </div>
+
+      <div>
+        <div class="thumbnail text-center">
+          <img src="Images/homepage_prometheus.JPG" alt="Foundry" width="400" height="300">
+          <p><strong>Prometheus</strong></p>
+          <p>Prometheus is our hybrid rocket competition team.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"><a href="prometheus.html">More Info</a></button>
+        </div>        
+     </div>
+
+
+  
+  
+
+
+  <br>
+
+ </div>
+
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
