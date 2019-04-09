@@ -191,7 +191,7 @@ body, html {
 
    
     /* The image used */
-    background-image: url("Images/teamphoto.jpg");
+    background-image: url("Images/mediaheader.JPG");
 
     /* Full height */
     height: 50%; 
@@ -207,7 +207,7 @@ body, html {
 
    
     /* The image used */
-    background-image: url("Images/teamphoto.jpg");
+    background-image: url("Images/contactheader.JPG");
 
     /* Full height */
     height: 40%; 
@@ -296,7 +296,6 @@ body, html {
     background-size: cover;
 
 }
-  
  
 
   .person {
